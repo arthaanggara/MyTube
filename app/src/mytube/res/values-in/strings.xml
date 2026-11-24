@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">Jadikan MyTube for Keysha menjadi pemutar musik</string>
+    <string name="external_download_provider_summary">Masukkan nama paket apli yang Anda ingin gunakan untuk mengunduh video. Biarkan kosong untuk menggunakan pengunduh bawaan MyTube for Keysha.</string>
+    <string name="welcome">Selamat datang di MyTube for Keysha! Untuk memulai, silahkan pilih mode sinkronisasi di bawah ini untuk memutuskan apakah ingin menyinkronkan data pengguna Anda di seluruh perangkat.</string>
+    <string name="libretube_sync_server">Server sinkronisasi MyTube for Keysha</string>
+    <string name="sync_server_url">URL ke server sinkronisasi MyTube for Keysha</string>
+    <string name="sync_type_summary_libretube">Simpan data daftar putar dan langganan di server sinkronisasi MyTube for Keysha (%1$s). Ini memungkinkan Anda untuk masuk ke akun Anda di perangkat manapun untuk memiliki akses ke langganan dan daftar putar Anda. Penafian: Data pengguna disamarkan di sisi server, tetapi tidak dienkripsi ujung-ke-ujung. Sesuai pilihan, Anda juga dapat menghosting versi server Anda sendiri, tetapi biasanya server resmi sudah cukup memadai.</string>
+</resources>

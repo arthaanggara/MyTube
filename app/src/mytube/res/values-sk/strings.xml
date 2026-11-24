@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="about">O MyTube for Keysha</string>
+    <string name="audio_only_mode_summary">Premení MyTube for Keysha na prehrávač hudby</string>
+    <string name="external_download_provider_summary">Zadajte názov aplikácie, ktorú chcete používať na sťahovanie videí. Ak chcete použiť vstavaný sťahovač MyTube for Keysha, nechajte prázdne miesto.</string>
+    <string name="welcome">Vitajte v MyTube for Keysha! Pre začiatok si prosím vyberte režim synchronizácie nižšie, aby ste rozhodli, či sa majú vaše používateľské údaje synchronizovať medzi zariadeniami.</string>
+    <string name="libretube_sync_server">Synchronizačný server MyTube for Keysha</string>
+    <string name="sync_server_url">URL synchronizačného servera MyTube for Keysha</string>
+    <string name="sync_type_summary_libretube">Ukladajte údaje o zoznamoch skladieb a odberoch na synchronizačnom serveri MyTube for Keysha (%1$s). To vám umožní prihlásiť sa do vášho účtu na akomkoľvek inom zariadení a mať prístup k vašim odberom a zoznamom skladieb. Upozornenie týkajúce sa ochrany súkromia: Údaje používateľov sú na strane servera pseudonymizované, nie sú však šifrované end-to-end. Podľa výberu si môžete hosťovať aj vlastnú verziu servera, ale zvyčajne by mal oficiálny server stačiť.</string>
+</resources>

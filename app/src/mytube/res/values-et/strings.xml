@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">Muuda MyTube for Keysha muusikamängijaks</string>
+    <string name="external_download_provider_summary">Sisesta välise allalaadimisrakenduse paketi nimi, mida soovid kasutada. Kui eelistad MyTube for Keysha\'i oma allalaadimislahendust, siis jäta tühjaks.</string>
+    <string name="welcome">Tere tulemast, see on MyTube for Keysha! Alustamiseks palun vali alljärgnevast sünkroonimisviis, millega määrad kas ja kuidas sünkroonid oma andmeid eri seadmete vahel.</string>
+    <string name="libretube_sync_server">MyTube for Keysha\'i sünkroonimisserveri abil</string>
+    <string name="sync_server_url">MyTube for Keysha\'i sünkroonimisserveri võrguaadress</string>
+    <string name="sync_type_summary_libretube">Esitusloendid ja tellimused on salvestatud MyTube for Keysha\'i sünkroonimisserveris (%1$s). See võimaldab sul ükspuha, mis oma seadmest sisse logida ja sul on ligipääs oma esitusloenditele ja tellimustele. Privaatsusteade: andmed on serveris seotud pseudonüümiga, kuid läbivalt krüptimata. Kui tahad, siis saad ka oma serveri kasutusele võtta, kuid tavaliselt piisab ametlikust serverist.</string>
+</resources>

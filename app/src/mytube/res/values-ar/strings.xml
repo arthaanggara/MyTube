@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">حول MyTube for Keysha إلى مشغل موسيقى</string>
+    <string name="external_download_provider_summary">أدخل اسم حزمة التطبيق الذي تريد استخدامه لتنزيل مقاطع الفيديو. اتركه فارغًا لاستخدام أداة التنزيل المدمجة في MyTube for Keysha.</string>
+    <string name="welcome">مرحبًا بك في MyTube for Keysha! للبدء، يُرجى اختيار وضع المزامنة أدناه لتحديد ما إذا كنت تريد مزامنة بياناتك عبر الأجهزة.</string>
+    <string name="sync_type_summary_libretube">خزّن بيانات قوائم التشغيل والاشتراكات على خادم المزامنة الخاص بـ MyTube for Keysha (%1$s) يتيح لك ذلك تسجيل الدخول إلى حسابك على أي جهاز آخر للوصول إلى اشتراكاتك وقوائم التشغيل إخلاء مسؤولية الخصوصية: تُستخدم أسماء مستعارة لبيانات المستخدم على جانب الخادم ولكنها ليست مشفّرة من طرف إلى طرف. يمكنك أيضًا، إن أردت استضافة نسختك الخاصة من الخادم لكن عادةً ما يكون الخادم الرسمي كافيًا تمامًا.</string>
+</resources>

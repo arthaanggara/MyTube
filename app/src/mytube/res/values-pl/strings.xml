@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">Zmień MyTube for Keysha w odtwarzacz muzyczny</string>
+    <string name="external_download_provider_summary">Wpisz nazwę pakietu aplikacji której chcesz używać do pobierania wideo. Pozostaw puste aby używać wbudowanego narzędzia MyTube for Keysha.</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">MyTube for Keysha-u musiqi səsləndiriciyə çevir</string>
+    <string name="external_download_provider_summary">Videoları yükləmək üçün istifadə etdiyiniz tətbiqin paket adını daxil edin. MyTube for Keysha-un daxili yükləyicisin istifadə etmək üçün boş buraxın.</string>
+    <string name="welcome">MyTube for Keysha-a Xoş Gəlmisiniz! Başlamaq üçün, xahiş olunur istifadəçi məlumatlarınızı cihazlar arasında sinxronlaşdırıb-sinxronlaşdırmayacağınızı müəyyən etmək üçün aşağıda sinxronizasiya rejimini seçin.</string>
+    <string name="libretube_sync_server">MyTube for Keysha sinxronizasiya serveri</string>
+    <string name="sync_server_url">MyTube for Keysha sinxronizasiya serveri üçün URL</string>
+    <string name="sync_type_summary_libretube">Pleylistləri və abunəlik məlumatlarını MyTube for Keysha-un sinxronizasiya serverində (%1$s) saxla. Bu, abunəliklərinizə və pleylistlərinizə giriş etmək üçün digər istənilən cihazda hesabınıza daxil olmağa imkan verir. Məxfilik Xəbərdarlığı: İstifadəçi məlumatları server tərəfində anonimləşdirilir, lakin ucdan-uca şifrələnmir. İstəyinizə uyğun olaraq serverin öz versiyasına da ev sahibliyi edə bilərsiniz, lakin adətən rəsmi server tam kifayətdir.</string>
+</resources>

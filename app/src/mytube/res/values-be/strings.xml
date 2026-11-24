@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="about">Аб MyTube for Keysha</string>
+    <string name="audio_only_mode_summary">Ператварыце MyTube for Keysha у музычны прайгравальнік</string>
+    <string name="external_download_provider_summary">Назва пакета праграмы, якое будзе выкарыстоўвацца для спампоўкі відэа. Пакіньце пустым, каб спампоўваць праз MyTube for Keysha.</string>
+</resources>

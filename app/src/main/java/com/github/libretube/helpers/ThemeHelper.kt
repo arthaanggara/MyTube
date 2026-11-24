@@ -78,7 +78,7 @@ object ThemeHelper {
     fun changeIcon(context: Context, newLogoActivityAlias: String) {
         // Disable Old Icon(s)
         for (appIcon in IconsSheetAdapter.availableIcons) {
-            val activityClass = context.packageName.removeSuffix(".debug") + "." + appIcon.activityAlias
+            val activityClass = "com.github.libretube." + appIcon.activityAlias
 
             // remove old icons
             context.packageManager.setComponentEnabledSetting(
@@ -89,7 +89,7 @@ object ThemeHelper {
         }
 
         // set the class name for the activity alias
-        val newLogoActivityClass = context.packageName.removeSuffix(".debug") + "." + newLogoActivityAlias
+        val newLogoActivityClass = "com.github.libretube." + newLogoActivityAlias
         // Enable New Icon
         context.packageManager.setComponentEnabledSetting(
             ComponentName(context.packageName, newLogoActivityClass),
@@ -108,10 +108,16 @@ object ThemeHelper {
      * Get the styled app name
      */
     fun getStyledAppName(context: Context): Spanned {
-        val colorPrimary = getThemeColor(context, androidx.appcompat.R.attr.colorPrimaryDark)
-        val hexColor = "#%06X".format(0xFFFFFF and colorPrimary)
-        return "Libre<span  style='color:$hexColor';>Tube</span>"
-            .parseAsHtml(HtmlCompat.FROM_HTML_MODE_COMPACT)
+        // MyTube: ikon + " for Keysha"
+        val icon = androidx.core.content.ContextCompat.getDrawable(context, R.drawable.mytube_title_icon)!!
+        val h = (context.resources.displayMetrics.density * 26).toInt()
+        icon.setBounds(0, 0, h * icon.intrinsicWidth / icon.intrinsicHeight, h)
+        val sb = android.text.SpannableStringBuilder("  for Keysha")
+        sb.setSpan(
+            android.text.style.ImageSpan(icon, android.text.style.DynamicDrawableSpan.ALIGN_CENTER),
+            0, 1, android.text.Spannable.SPAN_EXCLUSIVE_EXCLUSIVE
+        )
+        return sb
     }
 
     fun isDarkMode(context: Context): Boolean {

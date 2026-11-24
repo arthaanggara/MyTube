@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">MyTube for Keysha’ni musiqa pleyeriga aylantirish</string>
+    <string name="external_download_provider_summary">Video yuklab olish uchun foydalanmoqchi bo‘lgan ilovaning paket nomini kiriting. MyTube for Keysha’ning ichki yuklab oluvchisidan foydalanish uchun bo‘sh qoldiring.</string>
+</resources>

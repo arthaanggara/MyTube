@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">Gør MyTube for Keysha til en musikafspiller</string>
+    <string name="external_download_provider_summary">Indtast pakkenavnet på den app, du vil bruge til at hente videoer. Lad det være tomt for at bruge MyTube for Keyshas indbyggede downloader.</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">הפיכת MyTube for Keysha לנגן מוזיקה</string>
+    <string name="external_download_provider_summary">נא למלא את שם חבילת היישום לשימוש להורדת סרטונים. יש להשאיר ריק כדי להשתמש במוריד המובנה של MyTube for Keysha.</string>
+    <string name="libretube_sync_server">שרת סנכרון MyTube for Keysha</string>
+    <string name="welcome">ברוך בואך ל־MyTube for Keysha! בתור התחלה, נא לבחור מצב סנכרון להלן כדי להחליט האם לסנכרן את נתוני המשתמש שלך בין מכשירים.</string>
+</resources>

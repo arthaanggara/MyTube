@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="external_download_provider_summary">ناوی پاکێجی ئەو ئەپە بنووسە کە دەتەوێت بۆ دابەزاندنی ڤیدیۆ بەکاری بهێنیت. بۆ بەکارهێنانی دابەزاندنی ناوەکی MyTube for Keysha بە بەتاڵی بهێڵەرەوە.</string>
+</resources>

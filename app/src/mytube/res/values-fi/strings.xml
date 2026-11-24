@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">Muuta MyTube for Keysha musiikkisoittimeksi</string>
+    <string name="external_download_provider_summary">Syötä videotallennussovelluksen paketin nimi. Jätä tyhjäksi käyttääksesi MyTube for Keyshan sisäänrakennettua tallentajaa.</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">Превърнете MyTube for Keysha в музикален плейър</string>
+    <string name="external_download_provider_summary">Въведи името на пакета на приложението, което искате да използвате за изтегляне на видеоклипове. Оставете празно, за да използвате вградената програма за изтегляне на MyTube for Keysha.</string>
+    <string name="welcome">Добре дошли в MyTube for Keysha! За да започнете, моля, изберете режим на синхронизация по-долу, за да решите дали да синхронизирате потребителските си данни между устройствата.</string>
+    <string name="libretube_sync_server">Синхронизиращ сървър на MyTube for Keysha</string>
+    <string name="sync_server_url">URL адрес към сървъра за синхронизиране на MyTube for Keysha</string>
+    <string name="sync_type_summary_libretube">Съхранявайте данни за плейлисти и абонаменти на синхронизиращия сървър на MyTube for Keysha (%1$s). Това ви позволява да влезете в акаунта си от всяко друго устройство, за да имате достъп до вашите абонаменти и плейлисти. Отказ от отговорност за поверителност: Потребителските данни са псевдонимизирани от страна на сървъра, но не са криптирани от край до край. По избор можете също да хоствате своя собствена версия на сървъра, но обикновено официалният сървър би трябвало да е достатъчно добър.</string>
+</resources>

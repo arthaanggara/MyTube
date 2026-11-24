@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">MyTube for Keysha を音楽プレーヤーに変えます</string>
+    <string name="external_download_provider_summary">動画のダウンロードに使うアプリのパッケージ名を入力します。MyTube for Keysha 内蔵のダウンローダーを使うには空欄のままにします。</string>
+    <string name="welcome">MyTube for Keyshaへようこそ！ ご利用を開始するには、以下の同期モードから選択し、デバイス間でユーザーデータを同期するかどうかを決めてください。</string>
+    <string name="libretube_sync_server">MyTube for Keysha 同期サーバー</string>
+</resources>

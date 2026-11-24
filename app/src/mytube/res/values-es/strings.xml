@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">Convierte MyTube for Keysha en un reproductor de música</string>
+    <string name="external_download_provider_summary">Introduzca el nombre de la aplicación que desea utilizar para descargar los vídeos. Déjelo en blanco para utilizar el MyTube for Keysha.</string>
+    <string name="sync_server_url">URL al servidor de sincronización de MyTube for Keysha</string>
+    <string name="welcome">¡Bienvenido a MyTube for Keysha! Para empezar, por favor, selecciona un modo de sincronización debajo para decidir si sincronizar tus datos de usuario entre dispositivos.</string>
+    <string name="libretube_sync_server">Servidor de sincronización MyTube for Keysha</string>
+    <string name="sync_type_summary_libretube">Almacena los datos de listas de reproducción y suscripciones en el servidor de sincronización de MyTube for Keysha (%1$s). Esto te permite iniciar sesión en tu cuenta desde cualquier otro dispositivo y tener acceso a tus suscripciones y listas de reproducción. Aviso de privacidad: Los datos de usuario son pseudoanonimizados del lado de servidor, pero no encriptados de extremo a extremo. Por elección, puedes también hostear tu propia versión del servidor, pero normalmente el servidor oficialmente debería estar bien.</string>
+</resources>

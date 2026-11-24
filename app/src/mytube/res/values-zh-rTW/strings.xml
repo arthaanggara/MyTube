@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">將MyTube for Keysha變成音樂播放器</string>
+    <string name="external_download_provider_summary">輸入您要用於下載影片的應用程式軟體包名稱。留空以使用 MyTube for Keysha 的內建下載程式。</string>
+    <string name="welcome">歡迎來到 MyTube for Keysha！開始使用前，請從下方選擇一種同步模式，以決定是否要在各裝置間同步您的使用者資料。</string>
+    <string name="libretube_sync_server">MyTube for Keysha 同步伺服器</string>
+    <string name="sync_server_url">MyTube for Keysha 同步伺服器的 URL</string>
+    <string name="sync_type_summary_libretube">將播放清單與訂閱資料儲存於 MyTube for Keysha 的同步伺服器 (%1$s) 上。這樣一來，您便可在任何其他裝置上登入您的帳號，以存取您的訂閱內容和播放清單。隱私權聲明：使用者資料在伺服器端經過假名化處理，但未進行端對端加密。您亦可選擇自行架設伺服器，但通常使用官方伺服器便已足夠。</string>
+</resources>

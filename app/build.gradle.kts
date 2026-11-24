@@ -74,7 +74,7 @@ android {
         getByName("debug") {
             isDebuggable = true
             applicationIdSuffix = ".debug"
-            resValue("string", "app_name", "MyTube Debug")
+            resValue("string", "app_name", "MyTube")
         }
     }
 
@@ -117,6 +117,13 @@ android {
     // language preference for Android 13 and above
     androidResources {
         generateLocaleConfig = true
+    }
+
+    // MyTube: logo splash & teks pengganti "LibreTube" (tanpa mengubah file asli)
+    sourceSets {
+        // debug memakai ikon utama (folder src/debug/res bawaan LibreTube diabaikan)
+        getByName("debug").res.setSrcDirs(listOf("src/mytube/res"))
+        getByName("release").res.srcDir("src/mytube/res")
     }
 
     namespace = "com.github.libretube"

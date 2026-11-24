@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">MyTube for Keysha를 음악 플레이어로 바꿉니다</string>
+    <string name="external_download_provider_summary">동영상을 다운로드하는 데 사용할 앱의 패키지 이름을 입력합니다. MyTube for Keysha에 내장된 다운로더를 사용하려면 비워둡니다.</string>
+</resources>

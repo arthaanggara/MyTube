@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">เปลี่ยน MyTube for Keysha ให้เป็นเครื่องเล่นเพลง</string>
+    <string name="external_download_provider_summary">ใส่ชื่อแพ็คเกจของแอปที่คุณจะใช้ในการดาวน์โหลดวิดีโอ ปล่อยเว้นว้างเอาไว้เพื่อใช้ตัวดาวน์โหลดของ MyTube for Keysha</string>
+    <string name="libretube_sync_server">ซิงค์เซิฟเวอร์ของ MyTube for Keysha</string>
+    <string name="sync_server_url">URL ซิงค์เซิฟเวอร์ของ MyTube for Keysha</string>
+    <string name="welcome">ยินดีต้อนรับสู่ MyTube for Keysha! เริ่มด้วยการเลือกโหมดการซิงค์ข้อมูลด้านล่างเพื่อเลือกว่าจะเชื่อมต่อข้อมูลผู้ใช้ของคุณระหว่างอุปกรณ์ต่างๆ หรือไหม</string>
+    <string name="sync_type_summary_libretube">เก็บข้อมูลเพลย์ลิสต์และการติดตามผ่านทางซิงค์เซิฟเวอร์ของ MyTube for Keysha (%1$s) คุณจะสามารถเข้าสู่ระบบบัญชีของคุณด้วยอุปกรณ์อื่นๆ ที่จะสามารถเข้าถึงข้อมูลเพลย์ลิสต์และการติดตามของคุณ ประกาศความเป็นส่วนตัว: ข้อมูลผู้ใช้จะเป็นข้อมูลแฝงบนเซิฟเวอร์ แต่ไม่มีการเข้ารหัสทั้งสองฝั่ง ด้วยตัวเลือกแล้วคุณสามารถตั้งเซิฟเวอร์ในเวอร์ชั่นของคุณได้ แต่โดยปกติ เซิฟเวอร์ทางการสามารถใช้ได้อย่างปกติ</string>
+</resources>

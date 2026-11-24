@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">Breyttu MyTube for Keysha í tónlistarspilara</string>
+    <string name="external_download_provider_summary">Settu inn nafn forritspakkans sem þú vilt að sé notaður til að sækja myndskeið. Skildu þetta eftir autt til að nota innbyggða niðurhalarann í MyTube for Keysha.</string>
+</resources>

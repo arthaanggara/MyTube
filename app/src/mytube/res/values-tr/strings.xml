@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">MyTube for Keysha uygulamasını bir müzik çalara dönüştürün</string>
+    <string name="external_download_provider_summary">Video indirmek için kullanmak istediğiniz uygulamanın paket adını girin. MyTube for Keysha\'un dahili indiricisini kullanmak için boş bırakın.</string>
+    <string name="welcome">MyTube for Keysha\'e hoş geldiniz! Başlamak için lütfen aşağıdan bir eşzamanlama modu seçin ve kullanıcı verilerinizi aygıtlar arasında eşzamanlayıp eşzamanlamayacağınıza karar verin.</string>
+    <string name="libretube_sync_server">MyTube for Keysha eşzamanlama sunucusu</string>
+    <string name="sync_server_url">MyTube for Keysha eşzamanlama sunucusu URL\'si</string>
+    <string name="sync_type_summary_libretube">Oynatma listelerini ve abonelik verilerini MyTube for Keysha eşzamanlama sunucusunda (%1$s) saklayın. Bu sayede, başka herhangi bir aygıttan hesabınızda oturum açarak aboneliklerinize ve oynatma listelerinize erişebilirsiniz. Gizlilik Uyarısı: Kullanıcı verileri sunucu tarafında sözde anonimleştirilir, ancak uçtan uca şifrelenmez. İsterseniz kendi sunucu sürümünüzü de barındırabilirsiniz, ancak genellikle resmi sunucu yeterli olacaktır.</string>
+</resources>

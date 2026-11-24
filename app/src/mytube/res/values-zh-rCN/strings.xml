@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">将 MyTube for Keysha 作为音乐播放器</string>
+    <string name="external_download_provider_summary">输入你想用于下载视频的包的名称。留空使用 MyTube for Keysha 的内置下载器。</string>
+    <string name="welcome">欢迎来到 MyTube for Keysha！要开始，请在下方选择同步模式来确定是否在不同设备间同步你的用户数据。</string>
+    <string name="libretube_sync_server">MyTube for Keysha 同步服务器</string>
+    <string name="sync_server_url">MyTube for Keysha 同步服务器 URL</string>
+    <string name="sync_type_summary_libretube">在 MyTube for Keysha 的同步服务器（%1$s）上存储播放列表和订阅。这允许你在任何其他设备上登录来访问订阅和播放列表。隐私声明：服务器端对用户数据进行假名化处理，但不是端到端加密。你也可以选择托管自己的服务器版本，但通常官方服务器应该就行了。</string>
+</resources>

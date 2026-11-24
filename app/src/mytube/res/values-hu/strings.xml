@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">Változtassa a MyTube for Keysha-ot zenelejátszóvá</string>
+    <string name="external_download_provider_summary">Adja meg a videók letöltéséhez használni kívánt alkalmazás csomagnevét. A MyTube for Keysha beépített letöltőjének használatához hagyja üresen.</string>
+    <string name="welcome">Üdvözlünk a MyTube for Keysha-ban! A kezdéshez válasszon az alábbi szinkronizálási módok közül annak eldöntéséhez, hogy szeretné-e szinkronizálni a felhasználói adataidat az eszközei között.</string>
+    <string name="libretube_sync_server">MyTube for Keysha szinkronizálókiszolgáló</string>
+    <string name="sync_server_url">A MyTube for Keysha szinkronizálókiszolgáló webcíme</string>
+    <string name="sync_type_summary_libretube">A lejátszási listákat és a feliratkozások adatait a MyTube for Keysha szinkronizálókiszolgálóján (%1$s) tárolja. Ez lehetővé teszi, hogy bármely más eszközről bejelentkezzen a fiókjába, és hozzáférjen a feliratkozásaihoz és lejátszási listáihoz. Adatvédelmi nyilatkozat: A felhasználói adatokat kiszolgálói oldalon álnevesítik, de nem végpontok közötti titkosítás alatt állnak. Ha úgy dönt, saját kiszolgálót is üzemeltethet, de általában a hivatalos kiszolgáló is teljesen megfelelő.</string>
+</resources>

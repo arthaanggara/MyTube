@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SplashScreenTheme" parent="BaseTheme">
+        <item name="colorSurface">@android:color/white</item>
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:windowSplashScreenBackground">@color/mytube_splash_bg</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_anim</item>
+    </style>
+</resources>

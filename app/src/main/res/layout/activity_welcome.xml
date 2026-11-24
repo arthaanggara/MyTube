@@ -70,6 +70,7 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/sync_mode_libretube"
                 style="?attr/materialButtonOutlinedStyle"
+                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/libretube_sync_server" />

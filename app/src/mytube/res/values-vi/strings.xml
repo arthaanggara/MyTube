@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MyTube for Keysha: override teks LibreTube -->
+<resources>
+    <string name="audio_only_mode_summary">Biến MyTube for Keysha thành một trình phát nhạc</string>
+    <string name="external_download_provider_summary">Điền id ứng dụng mà bạn muốn dùng để tải đoạn phim. Bỏ trống để dùng dịch vụ tải đoạn phim có sẵn của MyTube for Keysha.</string>
+    <string name="welcome">Chào mừng đến với MyTube for Keysha! Để bắt đầu, vui lòng chọn một chế độ đồng bộ bên dưới để quyết định xem sẽ đồng bộ dữ liệu sử dụng của bạn trên khắp các thiết bị khác nhau như thế nào.</string>
+    <string name="libretube_sync_server">Máy chủ đồng bộ của MyTube for Keysha</string>
+    <string name="sync_server_url">Đường dẫn đến máy chủ đồng bộ của MyTube for Keysha</string>
+    <string name="sync_type_summary_libretube">Lưu dữ liệu các danh sách phát và danh sách đăng ký trên máy chủ đồng bộ của MyTube for Keysha (%1$s). Việc này cho phép bạn đăng nhập vào tài khoản của mình trên bất kỳ thiết bị nào để truy cập danh sách đăng ký và danh sách phát đã lưu. Khuyến cáo về vấn đề quyền riêng tư: Dữ liệu sử dụng tuy sẽ được bí danh hoá bên phía máy chủ, nhưng sẽ không được mã hoá đầu cuối. Nếu muốn, bạn vẫn có thể tự vận hành máy chủ của riêng mình, nhưng dùng các máy chủ chính thức không chắc cũng ổn.</string>
+</resources>
