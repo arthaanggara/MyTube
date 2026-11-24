@@ -35,7 +35,8 @@
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/website"
-            style="@style/AboutCard">
+            style="@style/AboutCard"
+            android:visibility="gone">
 
             <androidx.appcompat.widget.AppCompatTextView
                 style="@style/AboutItem"
@@ -46,7 +47,8 @@
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/github"
-            style="@style/AboutCard">
+            style="@style/AboutCard"
+            android:visibility="gone">
 
             <androidx.appcompat.widget.AppCompatTextView
                 style="@style/AboutItem"
@@ -79,7 +81,8 @@
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/license"
-            style="@style/AboutCard">
+            style="@style/AboutCard"
+            android:visibility="gone">
 
             <androidx.appcompat.widget.AppCompatTextView
                 style="@style/AboutItem"

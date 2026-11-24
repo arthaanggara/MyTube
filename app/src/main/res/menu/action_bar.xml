@@ -16,6 +16,18 @@
         app:showAsAction="never" />
 
     <item
+        android:id="@+id/action_help"
+        android:title="@string/help"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_donate"
+        android:title="@string/donate"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
         android:id="@+id/action_about"
         android:title="@string/about"
         app:showAsAction="never" />
