@@ -60,6 +60,7 @@ jobs:
             -e 's/LibreTube/MyTube/g' \
             -e 's#@@KEEPREPO@@#libre-tube/LibreTube#g'
           sed -i 's#"Libre<span#"My<span#' app/src/main/java/com/github/libretube/helpers/ThemeHelper.kt
+          rm -f gradle/gradle-daemon-jvm.properties
 
       - name: Build APK
         if: steps.sync.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
