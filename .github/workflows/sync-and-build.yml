@@ -52,6 +52,15 @@ jobs:
           sed -i "s/versionCode = [0-9]*/versionCode = $((1000 + GITHUB_RUN_NUMBER))/" app/build.gradle.kts
           echo "VERSION_NAME=$(grep -oP 'versionName = "\K[^"]+' app/build.gradle.kts)" >> "$GITHUB_ENV"
 
+      - name: Rename app text in strings
+        if: steps.sync.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          find app/src/main/res -name 'strings.xml' -print0 | xargs -0 sed -i \
+            -e 's#libre-tube/LibreTube#@@KEEPREPO@@#g' \
+            -e 's/LibreTube/MyTube/g' \
+            -e 's#@@KEEPREPO@@#libre-tube/LibreTube#g'
+          sed -i 's#"Libre<span#"My<span#' app/src/main/java/com/github/libretube/helpers/ThemeHelper.kt
+
       - name: Build APK
         if: steps.sync.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
         run: ./gradlew assembleRelease --no-daemon

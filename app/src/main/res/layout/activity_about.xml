@@ -23,7 +23,8 @@
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/donate"
-            style="@style/AboutCard">
+            style="@style/AboutCard"
+            android:visibility="gone">
 
             <androidx.appcompat.widget.AppCompatTextView
                 style="@style/AboutItem"
