@@ -1,0 +1,82 @@
+name: Sync upstream and build MyTube
+
+on:
+  schedule:
+    - cron: '0 2 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  UPSTREAM_REPO: https://github.com/libre-tube/LibreTube.git
+  UPSTREAM_BRANCH: master
+
+jobs:
+  sync-and-build:
+    name: Sync with upstream, build, sign and release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Merge upstream changes
+        id: sync
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add upstream "$UPSTREAM_REPO"
+          git fetch upstream "$UPSTREAM_BRANCH"
+          before=$(git rev-parse HEAD)
+          git merge --no-edit "upstream/$UPSTREAM_BRANCH"
+          after=$(git rev-parse HEAD)
+          if [ "$before" != "$after" ]; then
+            git push origin HEAD
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up JDK
+        if: steps.sync.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        uses: actions/setup-java@v5
+        with:
+          distribution: "zulu"
+          java-version: "17"
+          cache: "gradle"
+
+      - name: Set version code
+        if: steps.sync.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          sed -i "s/versionCode = [0-9]*/versionCode = $((1000 + GITHUB_RUN_NUMBER))/" app/build.gradle.kts
+          echo "VERSION_NAME=$(grep -oP 'versionName = "\K[^"]+' app/build.gradle.kts)" >> "$GITHUB_ENV"
+
+      - name: Build APK
+        if: steps.sync.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        run: ./gradlew assembleRelease --no-daemon
+
+      - name: Sign APK
+        if: steps.sync.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        uses: ilharp/sign-android-release@v2
+        id: sign
+        with:
+          signingKey: ${{ secrets.ANDROID_RELEASE_SIGNING_KEY }}
+          keyAlias: ${{ secrets.ANDROID_RELEASE_KEY_ALIAS }}
+          keyStorePassword: ${{ secrets.ANDROID_RELEASE_KEYSTORE_PASSWORD }}
+          keyPassword: ${{ secrets.ANDROID_RELEASE_KEY_PASSWORD }}
+          buildToolsVersion: 35.0.0
+
+      - name: Rename APK
+        if: steps.sync.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        run: mv "${{ steps.sign.outputs.signedFile }}" "MyTube.apk"
+
+      - name: Create release
+        if: steps.sync.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: mytube-${{ github.run_number }}
+          name: MyTube ${{ env.VERSION_NAME }} (build ${{ github.run_number }})
+          files: "MyTube.apk"
+          fail_on_unmatched_files: true
+          make_latest: true
